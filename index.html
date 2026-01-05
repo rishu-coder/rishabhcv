@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rishabh Tiwari — CV</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top">
+    <nav class="nav">
+      <a class="brand" href="#top">RT</a>
+      <div class="links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button id="themeBtn" class="btn">Theme</button>
+    </nav>
+
+    <section id="top" class="hero">
+      <img class="avatar" src="assets/IMG-20241014-WA0022.jpg" alt="Rishabh photo" />
+      <div>
+        <h1>Rishabh Tiwari</h1>
+        <p class="subtitle">PhD (UCL) • Geotechnical / ML • Micro-imaging & modelling</p>
+        <div class="chips">
+          <span class="chip">London, UK</span>
+          <span class="chip">Machine Learning in Soil Mechanics</span>
+          <span class="chip">Tunnels & Underground</span>
+        </div>
+
+        <div class="cta">
+          <a class="btn primary" href="#contact">Contact</a>
+          <a class="btn" href="CV-Rishabh_Tiwari.pdf" target="_blank" rel="noreferrer">Download PDF</a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>
+        PhD researcher focused on machine learning in soil mechanics and micro-imaging at University College London.
+        Experience across research labs and industry roles spanning geotechnics, tunnelling, and infrastructure.
+      </p>
+    </section>
+
+    <section id="experience" class="card">
+      <div class="row">
+        <h2>Experience</h2>
+        <input id="searchBox" class="search" placeholder="Search experience (e.g., tunnel, imaging, rail)..." />
+      </div>
+
+      <div id="timeline" class="timeline">
+        <article class="item" data-tags="ml hyperspectral concrete microstructure london">
+          <div class="meta">Sept 2025 – Present • London, UK</div>
+          <h3>Machine Learning Engineer — Linear Labs</h3>
+          <ul>
+            <li>Hyperspectral imaging & concrete microstructure work.</li>
+          </ul>
+        </article>
+
+        <article class="item" data-tags="research assistant pore size modelling navier enpc paris">
+          <div class="meta">May–Aug 2023 • Aug–Oct 2024 • Jul–Sept 2025 • France</div>
+          <h3>Research Assistant — ENPC (NAVIER Lab), Paris</h3>
+          <ul>
+            <li>Pore size characterisation and modelling.</li>
+          </ul>
+        </article>
+
+        <article class="item" data-tags="research assistant permeability modelling rocks mcgill montreal">
+          <div class="meta">May 2021 – Mar 2022 • Montreal, Canada</div>
+          <h3>Research Assistant — McGill University</h3>
+          <ul>
+            <li>Permeability modelling in rocks for nuclear waste storage.</li>
+          </ul>
+        </article>
+
+        <article class="item" data-tags="intern hdr london design drawing reports contracts">
+          <div class="meta">Jun 2024 – Jul 2024 • London, UK</div>
+          <h3>Intern — HDR</h3>
+          <ul>
+            <li>Student accommodation building design support; drawings, meetings, reports/contracts review.</li>
+          </ul>
+        </article>
+
+        <article class="item" data-tags="civil engineering railway track geometry drainage ballast subgrade surveying">
+          <div class="meta">Dec 2019 – Mar 2022 • India</div>
+          <h3>Civil Engineering — Indian Railway</h3>
+          <ul>
+            <li>Track geometry assessment (alignment, cant, gauge) and maintenance recommendations.</li>
+            <li>Ballast/subgrade evaluation (plate load, soil classification, CBR) and improvement strategies.</li>
+            <li>Drainage/formation rehab planning and surveying for waterlogging-prone sections.</li>
+            <li>Surveying and alignment setting-out (total station/GPS) for double-tracking works.</li>
+          </ul>
+        </article>
+
+        <article class="item" data-tags="design engineer tunnels flac3d natm cavern hydropower">
+          <div class="meta">May 2019 – Nov 2019 • India</div>
+          <h3>Design Engineer — Snowy Mountains Engineering Corporation</h3>
+          <ul>
+            <li>Tunnel and underground design tasks (NATM support design, stability checks).</li>
+            <li>3D numerical analysis (FLAC3D) for cavern behaviour and support requirements.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <ul class="plain">
+        <li><b>PhD</b>, Machine Learning in soil mechanics & micro imaging — UCL, London (Mar 2022–Present)</li>
+        <li><b>ME</b>, Tunnels and Underground Structure — IIT (Jun 2020), CGPA 8.67</li>
+        <li><b>BE</b>, Civil Engineering — Government College (Jun 2016), CGPA 8.31</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <div class="grid">
+        <div>
+          <h3>Programming</h3>
+          <p>C, C++, MATLAB, Python</p>
+        </div>
+        <div>
+          <h3>Software</h3>
+          <p>Plaxis, RS3, Abaqus, Strand7, FLAC/PFC, DIPS, SLIDE/SETTLE3D, ROCFALL</p>
+        </div>
+        <div>
+          <h3>Languages</h3>
+          <p>English (Advanced), French (Beginner)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="card">
+      <h2>Publications & Conferences</h2>
+      <details>
+        <summary>Show highlights</summary>
+        <ul>
+          <li>Book/proceedings contribution: Indian Geotechnical Conference 2020, Springer Nature (2021).</li>
+          <li>Selected talks: GM3 UK (2024, Liverpool), ISSMG (2024, Grenoble), ALERT (2024, Aussois).</li>
+        </ul>
+      </details>
+      <p class="hint">Tip: add links (DOI / Google Scholar) to each paper for a stronger interactive CV.</p>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Phone: +44 7423662605 • Email: rishabh.tiwari.21@ucl.ac.uk</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:rishabh.tiwari.21@ucl.ac.uk">Email</a>
+        <a class="btn" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="btn" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">© <span id="year"></span> Rishabh Tiwari</footer>
+  <script src="script.js"></script>
+</body>
+</html>
